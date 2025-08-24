@@ -27,12 +27,11 @@ This project provides a comprehensive analysis of stock performance for ASELSAN 
 - Ready for presentation in CV or portfolio
 
 **File Structure**
-/data       → Raw Excel data files
-/sql        → SQL query scripts
-/powerbi    → Power BI .pbix dashboards
-README.md   → Project description and overview
-LICENSE     → MIT License
+- /data       → Raw Excel data files
+- /sql        → SQL query scripts
+- /powerbi    → Power BI .pbix dashboards
+- README.md   → Project description and overview
+- LICENSE     → MIT License
 
-
-**Author
-Yusuf Göksün**
+**Author:**
+**Yusuf Göksün**
