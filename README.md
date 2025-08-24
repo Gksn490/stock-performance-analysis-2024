@@ -9,13 +9,22 @@
 
 **Tools & Workflow**
 1. **Excel**: Data cleaning, preprocessing, calculation of daily changes, and preparation for SQL & Power BI.
+
 2. **SQL**: Advanced queries for calculating:
-- Monthly returns
-- Average monthly open/close prices
-- Total and highest/lowest volume days
-- Daily volatility
+- averageclosebymonths.sql – Calculates the average monthly closing prices.
+- dailychange.sql – Computes the daily price changes.
+- dailyvolatility.sql – Measures daily stock volatility.
+- highestclose.sql – Finds the highest closing price within the dataset.
+- highestvolume.sql – Identifies the day with the highest trading volume.
+- lowestclose.sql – Finds the lowest closing price within the dataset.
+- lowestvolume.sql – Identifies the day with the lowest trading volume.
+- monthlyreturn.sql – Calculates the monthly returns.
+- pivottables.sql – Creates pivot-style summarized tables for analysis.
+- totalvolumebymonths.sql – Aggregates total trading volume by month.
+- yearlyreturn.sql – Calculates yearly returns.
+
 3. **Power BI**: Visualization of insights through:
-- KPI cards (Yearly Return, Min/Max Close, Total Volume)
+- Cards (Yearly Return, Min/Max Close, Total Volume)
 - Line charts (Average Close, Volatility)
 - Column charts (Average Volume)
 - Scatter chart (Monthly Return vs Avg Volume with Volatility)
